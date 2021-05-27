@@ -13,22 +13,22 @@ pyrolite is an open-source Python package for working with geochemical data whic
 
 ## Workshop Content and Schedule
 
-<div class='alert alert-info'> <b> Note:</b> expect this repository to be continually updated until the day of the workshop; a final version will be released on the day.</div>
-
 A tentative schedule for the workshop is given below; times of breaks are currently yet to be determined.
 
-|   Time (AWST) | Agenda                             |
-| -------------:| ---------------------------------- |
-| 08:30 - 09:00 | Setup and Welcome                  |
-| 09:00 - 09:45 | **Introduction**                   |
-| 09:45 - 10:30 | **pyrolite**                       |
-| 10:30 - 10:45 | *Morning Tea*                      |
-| 10:45 - 12:30 | **Geochemical Data Workflows**     |
-| 12:30 - 13:00 | *Lunch*                            |
-| 13:00 - 14:30 | **Open Discussion, Q&A**           |
-|           --- | ---                                |
+|   Time (AWST) | Agenda                            |
+| -------------:| --------------------------------- |
+| 08:30 - 09:00 | Setup and Welcome                 |
+| 09:00 - 09:45 | **Introduction**                  |
+| 09:45 - 10:30 | **pyrolite**                      |
+| 10:30 - 10:45 | *Morning Tea*                     |
+| 10:45 - 12:30 | **Geochemical Data Workflows**    |
+| 12:30 - 13:00 | *Lunch*                           |
+| 13:00 - 14:30 | **Open Discussion, Q&A**          |
+|           --- | ---                               |
 |         15:30 | ***Conference Bus to Yallingup*** |
 
+
+<div class='alert alert-info'> <b> Note:</b> expect this repository to be continually updated until the day of the workshop; a final version will be released on the day.</div>
 
 To view the notebooks for this workshop, follow the link below:
 
