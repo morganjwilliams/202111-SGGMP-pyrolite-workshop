@@ -1,34 +1,96 @@
-# SGGMP 2021 pyrolite Workshop
+# SGGMP 2022 pyrolite Workshop
 
 [![pyrolite Documentation](https://readthedocs.org/projects/pyrolite/badge/?version=develop)](https://pyrolite.readthedocs.io/)
 [![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/morganjwilliams/202103-MQ-pyrolite-workshop/blob/main/LICENSE)
 [![Chat on Gitter](https://img.shields.io/gitter/room/pyrolite/community.svg)](https://gitter.im/pyrolite/community/)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=%20%40metasomite)](https://twitter.com/metasomite)
 
-This repository contains the content for the 2021-11-01 pyrolite workshop for the 2021 Specialist Group in Geochemistry, Mineralogy and Petrology meeting in Western Australia. This workshop will be held throughout the morning of Monday 1<sup>st</sup> November. A brief description below is duplicated from the [conference workshop page](https://gsasggmp.wixsite.com/home/workshops).
+This repository contains the content for the 2022-11-06 pyrolite workshop for
+the 2021 Specialist Group in Geochemistry, Mineralogy and Petrology meeting in
+Western Australia. This workshop will be held at
+[ARRC](https://www.google.com/maps/place/CSIRO+-+Kensington,+Australian+Resources+Research+Centre+(ARRC)/@-31.9951488,115.884979,17z/) throughout the morning of Sunday 6<sup>th</sup>
+November (postponed from a similar date in 2021). A brief description below is
+duplicated from the
+[conference workshop page](https://gsasggmp.wixsite.com/home/workshops).
 
 ## Using `pyrolite` for Geochemical Data Analytics: An Introduction
 
-pyrolite is an open-source Python package for working with geochemical data which aims to help geoscientists new to coding get off the ground quickly. It contains a variety of functionality for the processing, transformation and visualisation of geochemical and mineralogical data (see [pyrolite.rtfd.io](https://pyrolite.rtfd.io) for more information). This hands-on workshop will introduce Python and the Jupyter ecosystem, showcase some of pyrolite’s key features and demonstrate a series of geochemical data analytics workflows. This workshop will run throughout the morning, with some time for exploration and open discussion in the early afternoon. No previous experience with programming or Python is necessary. Participants should bring their own laptops, but the workshop will largely be conducted via web browser, so no software installation will be necessary.
+pyrolite is an open-source Python package for working with geochemical data which
+aims to help geoscientists new to coding get off the ground quickly. It contains
+a variety of functionality for the processing, transformation and visualisation
+of geochemical and mineralogical data (see
+[pyrolite.rtfd.io](https://pyrolite.rtfd.io) for more information).
+This hands-on workshop will introduce Python and the Jupyter ecosystem, showcase
+some of pyrolite’s key features and demonstrate a series of geochemical data
+analytics workflows. This workshop will run throughout the morning, with some
+time for exploration and open discussion in the early afternoon. No previous
+experience with programming or Python is necessary, but note that the workshop
+will be dominantly using and discussing code. Participants should bring their
+own laptops, but the workshop will largely be conducted via web browser, so no
+software installation will be necessary.
 
 ## Workshop Content and Schedule
 
-A tentative schedule for the workshop is given below; times of breaks are currently yet to be determined.
+A tentative schedule and description of the content for each section of the
+workshop is given below. Catering will be provided for morning tea and lunch.
 
-|   Time (AWST) | Agenda                            |
-| -------------:| --------------------------------- |
-| 08:30 - 09:00 | Setup and Welcome                 |
-| 09:00 - 09:45 | **Introduction**                  |
-| 09:45 - 10:30 | **pyrolite**                      |
-| 10:30 - 10:45 | *Morning Tea*                     |
-| 10:45 - 12:30 | **Geochemical Data Workflows**    |
-| 12:30 - 13:00 | *Lunch*                           |
-| 13:00 - 14:30 | **Open Discussion, Q&A**          |
-|           --- | ---                               |
-|         15:30 | ***Conference Bus to Yallingup*** |
+<div class='alert alert-info'> <b> Note:</b> expect this repository to be
+continually updated until the day of the workshop; a final version will be
+released on the day.</div>
+
+|   Time (AWST) | Agenda                                                        |
+| -------------:| ------------------------------------------------------------- |
+| 08:30 - 08:45 | Setup and Welcome                                             |
+| 08:45 - 09:15 | [**Introduction**](#introduction)                             |
+| 09:15 - 10:00 | [**pyrolite**](#pyrolite)                                     |
+| 10:00 - 10:15 | *Morning Tea*                                                 |
+| 10:15 - 11:30 | [**Geochemical Data Workflows**](#geochemical-data-workflows) |
+| 11:30 - 12:00 | *Lunch*                                                       |
+| 12:00 - 13:30 | [**Open Discussion, Q&A**](#open-discussion-QA)               |
+|           --- | ---                                                           |
+|        ~14:00 | *Conference Bus to Yallingup*                                 |
 
 
-<div class='alert alert-info'> <b> Note:</b> expect this repository to be continually updated until the day of the workshop; a final version will be released on the day.</div>
+#### Introduction
+
+* Working with geochemical and petrological data
+* Programmatic data processing and analysis workflows
+* The open-source scientific Python ecosystem
+* Introduction to Python and Jupyter
+
+#### pyrolite
+
+* Overview
+* Key features
+  * Processing and transformation
+  * Visualisation
+  * Reference data
+  * Working with mineral compositions
+  * Utilities, links into other software, ML etc
+* Interoperability with other components of the scientific Python ecosystem
+  (e.g. Pandas, scikit-learn)
+* Documentation and infrastructure
+* Installation
+* Development Roadmap
+
+#### Geochemical Data Workflows
+
+This section will feature a set of extended workflow examples, likely pertaining
+to at least some of the following:
+* Rare Earth Elements - lambda, anomalies, tetrads
+* Literature data compilation geochemical integration
+* Normative mineral endmember calculations
+* Calculating CIPW Norms
+* Whole rock geochemistry classification (tectonic settings)
+
+#### Open Discussion, Q&A
+
+Time for open discussion and questions, and (if there's interest and time)
+running through some more advanced/customised workflow options.
+For those interested, this might also be a good time to discuss the development
+roadmap, suggesting features or even contributing.
+
+## Notebooks
 
 To view the notebooks for this workshop, follow the link below:
 
