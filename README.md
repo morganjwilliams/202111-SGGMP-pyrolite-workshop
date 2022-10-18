@@ -8,9 +8,9 @@
 This repository contains the content for the 2022-11-06 pyrolite workshop for
 the 2021 Specialist Group in Geochemistry, Mineralogy and Petrology meeting in
 Western Australia. This workshop will be held at
-[ARRC](https://www.google.com/maps/place/CSIRO+-+Kensington,+Australian+Resources+Research+Centre+(ARRC)/@-31.9951488,115.884979,17z/) throughout the morning of Sunday 6<sup>th</sup>
-November (postponed from a similar date in 2021). A brief description below is
-duplicated from the
+[ARRC](https://goo.gl/maps/LbQjnREdhPH6WHP27) throughout the morning of Sunday
+6<sup>th</sup> November (postponed from a similar date in 2021).
+A brief description below is duplicated from the
 [conference workshop page](https://gsasggmp.wixsite.com/home/workshops).
 
 ## Using `pyrolite` for Geochemical Data Analytics: An Introduction
@@ -82,6 +82,7 @@ to at least some of the following:
 * Normative mineral endmember calculations
 * Calculating CIPW Norms
 * Whole rock geochemistry classification (tectonic settings)
+* Basic spatial visualisation with GeoPandas
 
 #### Open Discussion, Q&A
 
