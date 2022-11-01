@@ -1,0 +1,31 @@
+name: "Notebook Tests"
+
+on:
+  push:
+  pull_request:
+    branches:
+    - develop
+
+jobs:
+  notebook_tests:
+    name: Notebook Tests
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.8, 3.9, '3.10']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: provision-with-micromamba
+        uses: mamba-org/provision-with-micromamba@v14
+        with:
+          environment-file: ./binder/environment.yml
+          environment-name: sggmp-workshop-env
+          cache-env: true
+          extra-specs: |
+            python=${{ matrix.python-version }}
+      - name: Run notebooks
+        shell: bash -l {0}
+        run: |
+          python ./test/run_notebooks.py

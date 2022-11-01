@@ -1,0 +1,22 @@
+name: sggmp-workshop-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python>=3.7
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - umap-learn
+  - sympy
+  - joblib
+  - requests
+  - jupyter
+  - jupyterlab
+  - pip
+  - pip:
+      - git+https://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite # latest develop release
