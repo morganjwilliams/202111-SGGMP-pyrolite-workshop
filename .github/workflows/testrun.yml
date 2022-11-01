@@ -6,6 +6,10 @@ on:
     branches:
     - develop
 
+defaults:
+  run:
+    shell: bash -l {0}
+
 jobs:
   notebook_tests:
     name: Notebook Tests
@@ -26,6 +30,5 @@ jobs:
           extra-specs: |
             python=${{ matrix.python-version }}
       - name: Run notebooks
-        shell: bash -l {0}
         run: |
           python ./test/run_notebooks.py
