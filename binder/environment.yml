@@ -7,8 +7,11 @@ channels:
 dependencies:
   - python>=3.7
   - pandas
+  - geopandas
+  - contextily
   - numpy
   - matplotlib<3.6.0
+  - ipympl
   - scikit-learn
   - scipy
   - umap-learn
