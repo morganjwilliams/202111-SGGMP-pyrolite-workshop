@@ -20,6 +20,10 @@ dependencies:
   - requests
   - jupyter
   - jupyterlab
+  # some development tools, optional
+  # - jupyterlab-spellchecker
+  # - jupyterlab_code_formatter
+  # - black
   - pip
   - pip:
       - git+https://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite # latest develop release
