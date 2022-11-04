@@ -13,3 +13,4 @@ jobs:
         with:
           target-repo: ${{ github.repository }}
           target-state: ${{ github.ref_name }}
+          debug: true
