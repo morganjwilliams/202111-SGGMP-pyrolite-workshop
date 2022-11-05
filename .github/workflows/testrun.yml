@@ -26,6 +26,7 @@ jobs:
         with:
           environment-file: ./binder/environment.yml
           environment-name: sggmp-workshop-env
+          cache-downloads: true
           # cache-env: true
           extra-specs: |
             python=${{ matrix.python-version }}
