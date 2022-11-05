@@ -69,19 +69,13 @@ released on the day.</div>
   * Utilities, links into other software, ML etc
 * Interoperability with other components of the scientific Python ecosystem
   (e.g. Pandas, scikit-learn)
-* Documentation and infrastructure
-* Installation
-* Development Roadmap
+* Documentation and infrastructure, installation and development Roadmap
 
 #### Geochemical Data Workflows
 
-This section will feature a set of extended workflow examples, likely pertaining
-to at least some of the following:
-* Rare Earth Elements - lambda, anomalies, tetrads
-* Literature data compilation geochemical integration
-* Normative mineral endmember calculations
-* Calculating CIPW Norms
-* Whole rock geochemistry classification (tectonic settings)
+This section will feature a set of extended workflow examples, including:
+* A few of the more complex feaures - Calculating CIPW Norms and lambdas
+* A few basic ML workflows
 * Basic spatial visualisation with GeoPandas
 
 #### Open Discussion, Q&A
