@@ -25,5 +25,6 @@ dependencies:
   # - jupyterlab_code_formatter
   # - black
   - pip
+  - git
   - pip:
       - git+https://github.com/morganjwilliams/pyrolite.git@develop#egg=pyrolite # latest develop release
