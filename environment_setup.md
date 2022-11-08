@@ -114,3 +114,13 @@ following steps:
   removing packages, updating packages etc), make sure you're in the right environment (and ideally, not in `base`...).
 * `mamba` has saved me many hours of the programming equivalent
   of 'watching paint dry' waiting for packages to download and install.
+* If you're working with other peoples code, or simply trying to keep track of
+  your own evolving project, I'd suggest getting to terms with the basics of
+  `git` and some standard workflows for managing versions and branches of
+  code repositories.
+* Keep in touch, happy to provide some support on the pyrolite front, with
+  hopefully some future workshops down the line. The
+  [documentation](https://pyrolite.rtfd.io) should be your first point of call
+  though.
+* I'm also happy to discuss work in the open (e.g. on open GitHub repositories)
+  and some good practices around those kinds of things if you're keen.
